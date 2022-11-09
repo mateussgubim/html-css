@@ -1,0 +1,33 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c4fcc4;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+h2 {
+    color: #32c932;
+}
+
+#main-title {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+}
+
+.basic {
+    color: #3249c9;
+    text-align: right;
+}
+
+.advanced {
+    color: #c93232;
+    text-align: right;
+}
