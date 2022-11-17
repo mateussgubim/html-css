@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -19,6 +20,8 @@
             font-weight: bold;
             padding: 10px;
             background-color: #e1e1f8;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
         }
 
         td, th {
@@ -32,6 +35,11 @@
 
         thead,tfoot {
             background-color: #cecee4;
+        }
+
+        thead {
+            position: sticky;
+            top: 0;
         }
 
         .number {
@@ -83,7 +91,7 @@
             </tr>
             <tr>
                 <td>Pará</td>
-                <td class="number">8.777.124</td.
+                <td class="number">8.777.124</td>
             </tr>
             <tr>
                 <td>Santa Catarina</td>
@@ -99,7 +107,7 @@
             </tr>
             <tr>
                 <td>Amazonas</td>
-                <td class="number">4.269.995</td.
+                <td class="number">4.269.995</td>
             </tr>
             <tr>
                 <td>Espírito Santo</td>
